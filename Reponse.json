@@ -1,0 +1,364 @@
+{
+    "pagination": {
+        "total_result": 1984,
+        "start_page": 0,
+        "items_per_page": 2,
+        "items_on_page": 2
+    },
+    "feed_publishers": [
+        {
+            "id": "osm",
+            "name": "openstreetmap",
+            "url": "https://www.openstreetmap.org/copyright",
+            "license": "ODbL"
+        },
+        {
+            "id": "IDFM:idfm_netex",
+            "name": "idfm_netex",
+            "url": "",
+            "license": "private"
+        },
+        {
+            "id": "IDFM:transilien_netex",
+            "name": "transilien_netex",
+            "url": "",
+            "license": "private"
+        }
+    ],
+    "disruptions": [],
+    "context": {
+        "current_datetime": "20241223T072153",
+        "timezone": "Europe/Paris"
+    },
+    "lines": [
+        {
+            "id": "line:IDFM:C00563",
+            "name": "CDG VAL",
+            "code": "CDG VAL",
+            "color": "5CC5ED",
+            "text_color": "FFFFFF",
+            "codes": [
+                {
+                    "type": "Netex_PrivateCode",
+                    "value": "043043100"
+                },
+                {
+                    "type": "source",
+                    "value": "FR1:Line:C00563:"
+                }
+            ],
+            "physical_modes": [
+                {
+                    "id": "physical_mode:RailShuttle",
+                    "name": "Orlyval, CDG VAL"
+                }
+            ],
+            "commercial_mode": {
+                "id": "commercial_mode:RailShuttle",
+                "name": "Orlyval, CDG VAL"
+            },
+            "routes": [
+                {
+                    "id": "route:IDFM:ADP:5340-C00563-1",
+                    "name": "Terminal 2 Gare",
+                    "is_frequence": "False",
+                    "direction_type": "outbound",
+                    "codes": [
+                        {
+                            "type": "Netex_ServiceJourneyPattern",
+                            "value": "ADP:ServiceJourneyPattern:5340-C00563-1-286-A:LOC"
+                        },
+                        {
+                            "type": "source",
+                            "value": "ADP:Route:5340-C00563-1:LOC"
+                        }
+                    ],
+                    "direction": {
+                        "id": "stop_area:IDFM:73699",
+                        "name": "Aéroport CDG - Terminal 2 (TGV) (Le Mesnil-Amelot) (Tremblay-en-France)",
+                        "quality": 0,
+                        "stop_area": {
+                            "id": "stop_area:IDFM:73699",
+                            "name": "Aéroport CDG - Terminal 2 (TGV)",
+                            "codes": [
+                                {
+                                    "type": "TN_PA",
+                                    "value": "149"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::multimodalStopPlace:73699:FR1"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "label": "Aéroport CDG - Terminal 2 (TGV) (Le Mesnil-Amelot) (Tremblay-en-France)",
+                            "coord": {
+                                "lon": "2.571403",
+                                "lat": "49.00425"
+                            },
+                            "links": []
+                        },
+                        "embedded_type": "stop_area"
+                    },
+                    "geojson": {
+                        "type": "MultiLineString",
+                        "coordinates": []
+                    },
+                    "links": []
+                },
+                {
+                    "id": "route:IDFM:ADP:5340-C00563-2",
+                    "name": "Terminal 1",
+                    "is_frequence": "False",
+                    "direction_type": "inbound",
+                    "codes": [
+                        {
+                            "type": "Netex_ServiceJourneyPattern",
+                            "value": "ADP:ServiceJourneyPattern:5340-C00563-2-572-R:LOC"
+                        },
+                        {
+                            "type": "source",
+                            "value": "ADP:Route:5340-C00563-2:LOC"
+                        }
+                    ],
+                    "direction": {
+                        "id": "stop_area:IDFM:69212",
+                        "name": "Aéroport CDG - Terminal 1 (Mauregard)",
+                        "quality": 0,
+                        "stop_area": {
+                            "id": "stop_area:IDFM:69212",
+                            "name": "Aéroport CDG - Terminal 1",
+                            "codes": [
+                                {
+                                    "type": "source",
+                                    "value": "FR::multimodalStopPlace:69212:FR1"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "label": "Aéroport CDG - Terminal 1 (Mauregard)",
+                            "coord": {
+                                "lon": "2.54176",
+                                "lat": "49.014005"
+                            },
+                            "links": []
+                        },
+                        "embedded_type": "stop_area"
+                    },
+                    "geojson": {
+                        "type": "MultiLineString",
+                        "coordinates": []
+                    },
+                    "links": []
+                }
+            ],
+            "network": {
+                "id": "network:IDFM:Operator_043",
+                "name": "ADP",
+                "links": [],
+                "codes": [
+                    {
+                        "type": "source",
+                        "value": "FR1:Operator:043:LOC"
+                    }
+                ]
+            },
+            "opening_time": "000000",
+            "closing_time": "235959",
+            "geojson": {
+                "type": "MultiLineString",
+                "coordinates": []
+            },
+            "links": []
+        },
+        {
+            "id": "line:IDFM:C00562",
+            "name": "N1",
+            "code": "N1",
+            "color": "DF3A82",
+            "text_color": "FFFFFF",
+            "codes": [
+                {
+                    "type": "Netex_PrivateCode",
+                    "value": "043043001"
+                },
+                {
+                    "type": "source",
+                    "value": "FR1:Line:C00562:"
+                }
+            ],
+            "physical_modes": [
+                {
+                    "id": "physical_mode:Bus",
+                    "name": "Bus"
+                }
+            ],
+            "commercial_mode": {
+                "id": "commercial_mode:Bus",
+                "name": "Bus"
+            },
+            "routes": [
+                {
+                    "id": "route:IDFM:ADP:5340-C00562-3",
+                    "name": "Terminal 2 F",
+                    "is_frequence": "False",
+                    "direction_type": "outbound",
+                    "codes": [
+                        {
+                            "type": "Netex_ServiceJourneyPattern",
+                            "value": "ADP:ServiceJourneyPattern:5340-C00562-3-937-A:LOC"
+                        },
+                        {
+                            "type": "source",
+                            "value": "ADP:Route:5340-C00562-3:LOC"
+                        }
+                    ],
+                    "direction": {
+                        "id": "stop_area:IDFM:73845",
+                        "name": "Aéroport CDG - Terminal 2E-2F (Le Mesnil-Amelot)",
+                        "quality": 0,
+                        "stop_area": {
+                            "id": "stop_area:IDFM:73845",
+                            "name": "Aéroport CDG - Terminal 2E-2F",
+                            "codes": [
+                                {
+                                    "type": "TN_PA",
+                                    "value": "149"
+                                },
+                                {
+                                    "type": "source",
+                                    "value": "FR::multimodalStopPlace:73845:FR1"
+                                }
+                            ],
+                            "timezone": "Europe/Paris",
+                            "label": "Aéroport CDG - Terminal 2E-2F (Le Mesnil-Amelot)",
+                            "coord": {
+                                "lon": "2.577662",
+                                "lat": "49.004349"
+                            },
+                            "links": []
+                        },
+                        "embedded_type": "stop_area"
+                    },
+                    "geojson": {
+                        "type": "MultiLineString",
+                        "coordinates": []
+                    },
+                    "links": []
+                }
+            ],
+            "network": {
+                "id": "network:IDFM:Operator_043",
+                "name": "ADP",
+                "links": [],
+                "codes": [
+                    {
+                        "type": "source",
+                        "value": "FR1:Operator:043:LOC"
+                    }
+                ]
+            },
+            "opening_time": "000000",
+            "closing_time": "235959",
+            "geojson": {
+                "type": "MultiLineString",
+                "coordinates": []
+            },
+            "links": []
+        }
+    ],
+    "links": [
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/routes/{routes.id}",
+            "templated": true,
+            "rel": "routes",
+            "type": "routes"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/stop_areas/{stop_area.id}",
+            "templated": true,
+            "rel": "stop_areas",
+            "type": "stop_area"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/networks/{network.id}",
+            "templated": true,
+            "rel": "networks",
+            "type": "network"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{lines.id}",
+            "templated": true,
+            "rel": "lines",
+            "type": "lines"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/commercial_modes/{commercial_mode.id}",
+            "templated": true,
+            "rel": "commercial_modes",
+            "type": "commercial_mode"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/physical_modes/{physical_modes.id}",
+            "templated": true,
+            "rel": "physical_modes",
+            "type": "physical_modes"
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{lines.id}/route_schedules",
+            "rel": "route_schedules",
+            "type": "route_schedules",
+            "templated": true
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{lines.id}/stop_schedules",
+            "rel": "stop_schedules",
+            "type": "stop_schedules",
+            "templated": true
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{lines.id}/arrivals",
+            "rel": "arrivals",
+            "type": "arrivals",
+            "templated": true
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{lines.id}/departures",
+            "rel": "departures",
+            "type": "departures",
+            "templated": true
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{lines.id}/places_nearby",
+            "rel": "places_nearby",
+            "type": "places_nearby",
+            "templated": true
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{lines.id}/calendars",
+            "rel": "calendars",
+            "type": "calendar",
+            "templated": true
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines/{lines.id}/traffic_reports",
+            "rel": "disruptions",
+            "type": "disruption",
+            "templated": true
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines?count=2&start_page=1",
+            "type": "next",
+            "templated": false
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines?count=2&start_page=991",
+            "type": "last",
+            "templated": false
+        },
+        {
+            "href": "https://api-idfm.navitia.io/v1/coverage/idfm/lines?count=2",
+            "type": "first",
+            "templated": false
+        }
+    ]
+}
